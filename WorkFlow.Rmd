@@ -1,0 +1,12 @@
+---
+title: "Workflow Principles"
+author: DTK & RI
+date: March 11, 2014
+output: html_document
+---
+
+This is where we'll put the principles for writing content files for this site.
+
+1. Everything in markdown -> HTML
+2. Front matter
+
