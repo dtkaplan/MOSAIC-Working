@@ -1,0 +1,33 @@
+---
+title: "Moodle-Group-Work-Instructions"
+author: "RRI"
+date: "March 11, 2014"
+output: html_document
+category: [Calculus, Statistics, Modeling, Handout, Activity, Syllabi and Resources]
+keywords: [Collaboration, Google, Moodle]
+needsediting: check for site specific information
+---
+
+    
+The group work in this class is intended to be genuinely collaborative.  Collaboration can take many forms.  In selecting Google Docs as the medium for writing reports, we seek to use technology in a way that supports collaboration rather than interferes with it.  Google Docs allows all members of a group access to the collaborative report.
+
+Follow these steps when producing the report summarizing your group work:
+
+1. One member of your group should create the document(s) and share them with the other members using the facilities in Google Docs.
+2. Also, share the document with your instructor and preceptors (e.g., kaplan@macalester.edu or flath@macalester.edu). Please uncheck the send email notifications box when sharing with your instructor/preceptors.  
+3. At the top of the document, above the title, put in the names of all members of your group.  Please give the full name --- first and last --- avoiding nicknames.  This facilitates searching for student work.  Keep in mind that often multiple students in a class have the same first or last names.
+4. Write your report ...
+5. When you’re ready to hand in the report, copy the URL for the document from the locator bar at the top of the document.  (For instance, the URL for this document is https://docs.google.com/document/pub?id=1mcnxt3YZaqMlkf-nWVMefgEQpAUzQ0NlS5lwx8yQtEI .) You are going to paste your document’s URL into Moodle.
+6. Go to the site on Moodle where you are to hand in your report.  Paste the URL in as your entry there.  Each and every member of the group should do this, so that there is a submission on Moodle for everyone in the group.
+7. In addition, each and every member of the group should list all of the members of the group --- first and last names, please --- in their Moodle submission.  Alongside each person’s name, give your estimation of how much that person contributed to the project.  You can do this based on effort, not on results.  So a person who has spent a lot of time chasing down an idea that didn’t work out in the end, still should get marked as a major contributor.  You can use simple categories: none, minor, fair, major, heroic. Be honest, but don’t overthink it. The entries from different members of the group can reflect their individual opinions and don’t need to agree with one another.  
+
+For example, here’s the Moodle submission as might be made by Ben Franklin when handing in the committee report that became the Declaration of Independence in 1776:
+
+* Ben Franklin: fair
+* John Adams: major
+* Thomas Jefferson: heroic
+* Roger Sherman: fair
+* Robert Livingstone: minor
+* John Hancock: none 
+
+As a rule, all members of the group will get the same grade.  But trends in these categorizations of effort, especially persistent inconsistencies between a person’s evaluation of his or her own effort and the characterization provided by other members of the group, can help us to identify and correct problems in group dynamics and can also influence the final grade.

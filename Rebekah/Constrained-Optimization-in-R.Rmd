@@ -1,0 +1,69 @@
+---
+title: "Hughes-Hallett, problem 9.6.14"
+author: "RRI"
+date: "March 11, 2014"
+output: html_document 
+category: [Calculus, Handout, Activity]
+keywords: [Optimization, Contrained Optimization, R, Hughes-Hallett]  
+---
+
+```{r include=FALSE}
+library("mosaic")
+```
+
+We must first identify the objective function and the constraint function. Often, you can determine the objective function by looking for the word "minimum" or "maximum" in the statement of the problem. For this problem, we are asked "what is the minimum cost?" and so cost is our objective function. The remaining function, production is our constraint.
+
+Since labor $L$ costs $ 100 per unit and capital $K$ costs $ 200 per unit, cost is $F(L,K)=100L+200K$. The given production function is $Q(L,K)=900L^{1/2}K^{2/3}$ and we must produce 36,000 units.
+
+We can sum this all up as follows.
+
+Objective: minimize $F(L,K) \equiv 100L+200K$
+
+Constraint: $Q(L,K) \equiv 900L^{1/2}K^{2/3} = 36000$
+
+Now let's enter these two functions into R.
+
+```{r}
+F = makeFun(100*L+200*K~L&K)
+G = makeFun(900*L^(1/2)*K^(2/3)~L&K)
+```
+
+Now we go ahead and plot the objective function, and plot the 36,000 contour of the constraint function on top of it. It is hard to know what axis limits to use to start out with. In general, you might have to experiment a little.
+
+```{r}
+plotFun(F(L,K)~L&K,L.lim=range(0,300),K.lim=range(0,300),filled=FALSE)
+plotFun(G(L,K)~L&K,levels=36000,add=TRUE,filled=FALSE)
+```
+
+It is a bit hard to see where the objective function and the constraint are tangent, so let's make the same graph again but with tighter axis limits.
+
+```{r}
+plotFun(F(L,K)~L&K,L.lim=range(0,60),K.lim=range(0,40),filled=FALSE)
+plotFun(G(L,K)~L&K,levels=36000,add=TRUE,filled=FALSE)
+```
+
+That's better! The constraint curve, labeled 36000, appears to be tangent to a level of price that's between 5000 and 10000. Estimating from the graph, it appears to be around 7000. Let's add this level of the objective function on to the graph to see if it is indeed tangent to the constraint. The original two commands are included again for convenience.
+
+```{r}
+plotFun(F(L,K)~L&K,L.lim=range(0,60),K.lim=range(0,40),filled=FALSE)
+plotFun(G(L,K)~L&K,levels=36000,add=TRUE,filled=FALSE)
+plotFun(F(L,K)~L&K,levels=7000,add=TRUE,filled=FALSE)
+```
+
+It's not perfectly tangent, but it is pretty darn close, and good enough for an estimate. So let's recap what we have found. Reading off the graph, we should choose approximately $L=30$, $K=20$ to achieve the lowest cost given that we must produce 36,000 units. That cost, again reading off the graph, is about $7,000.
+
+Now we can estimate the Lagrange multipler. To do this, we have to repeat the entire process but changing the constraint. The Lagrange multiplier tells the change in the optimum value (in this case, minimal cost) per unit change in the constraint (in this case, the requirement to make one additional unit). However, if we were to plot the constraint curve at a level of 37,001, it would be almost indistinguishable from the original on the graph. Thus, I will change by a full thousand, and much as we can estimate a derivative from rough data, we can do the same here.
+
+```{r}
+plotFun(F(L,K)~L&K,L.lim=range(20,40),K.lim=range(15,25),filled=FALSE)
+plotFun(G(L,K)~L&K,levels=37000,add=TRUE,filled=FALSE)
+plotFun(F(L,K)~L&K,levels=7100,add=TRUE,filled=FALSE)
+```
+
+Here, I guessed that the constraint would be tangent to a cost level of $7100, and the picture confirms this. Also, I zoomed in (even tighter axis bounds) for this plot so you could see better.
+
+To calculate the Lagrange multiplier, we now put our two calculations together.
+
+$$\lambda = \frac{\text{change in optimum}}{\text{change in constraint}} = \frac{100}{1000} = 0.1\,\frac{\text{dollars}}{\text{unit}}$$
+
+The Lagrange multipler $\lambda$ is a lot like a derivative. The proper interpretation is: if it were required for us to produce an additional unit beyond a level of 36,000, it would cost (at optimum) approximately \$0.10 more.

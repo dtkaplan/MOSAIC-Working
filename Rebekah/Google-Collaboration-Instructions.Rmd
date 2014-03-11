@@ -1,0 +1,18 @@
+---
+title: "Google Collaboration"
+author: "RRI"
+date: "March 11, 2014"
+output: html_document
+---
+
+    Category: [Calculus, Statistics, Modeling, Handout, Activity, Syllabi and Resources]
+    Keywords: [Collaboration, Google, Moodle]
+    
+Over the semester, you will be writing several short reports in collaboration with other students. You'll use Google Docs/Drive to do this. This short assignment is to walk you through the steps of setting up a Google document, sharing it with the members of your team, and submitting it to the instructor through Moodle. See the instructions here [**insert link to instructions for submitting group work on Moodle**], which are also posted on the front page of the Moodle site.
+
+
+* Form a group with three to five people. At least one of these people must have a computer in class.
+* Make sure that everyone in the group knows the names and email addresses of the other members of the group. You might email these to one another.
+* One person in the group should create a Google Doc and share it with the others, entering the names of all group members at the top.
+* For the contents of the document, each person in the group should write a brief paragraph introducing himself or herself: hobbies, academic interests, sports, whatever.
+* Hand in the document, per the instructions above, on the Moodle site. It seems reasonable to assume that everyone involved has done a "fair" amount of work, so use that characterization on the Moodle site just to get you in the habit of making the characterization. 

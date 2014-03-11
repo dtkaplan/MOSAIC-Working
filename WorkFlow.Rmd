@@ -10,3 +10,60 @@ This is where we'll put the principles for writing content files for this site.
 1. Everything in markdown -> HTML
 2. Front matter
 
+## Directories:
+Jekyll – use for website development
+Rebekah – use for my own stuff
+Something new – for official website
+
+## Categories: 
+  Items from levels 1 and 2 (multiple are encouraged)
+
+
+## WEBSITE MATERIALS
+
+Blogs -> events (will go on front page)
+
+### Level 1:
+
+Instructions (for compiling) {Everything will come in RMD and be easily transitioned to HTML or PDF}
+
+* Statistics
+    * one 
+    * two
+* Calculus
+* Modeling
+	
+### Level 2:
+
+Instances of each of the following for each of stats, calc, modeling. Level 3 will be sub-categories in each one.
+
+Class notes (lesson plans, instructor notes, tips, tricks, examples, lecture notes, etc.
+
+Assessments (homework, exams, quizzes)
+
+Handouts (instructional handouts, activities, etc.)
+
+Projects & Labs (part of assessments and/or handouts
+
+Workshop materials
+
+Syllabi and Resources (syllabi examples, links to web content, data, etc.) 
+
+
+RMD Document Example:
+ 
+----------
+
+    ---
+    Category: [statistics, handout]
+	
+    Keywords: [ANOVA, integration] 
+
+    Keywords:
+    -	ANOVA
+    -	Integration
+    ---
+    
+    This is where the RMD content will go.
+------------
+

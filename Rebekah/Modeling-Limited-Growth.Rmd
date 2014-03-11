@@ -1,0 +1,11 @@
+---
+title: "Modeling Limited Growth"
+author: "DTK"
+date: "March 11, 2014"
+output: html_document
+category: [Calculus]
+keywords: [Growth, needs keys]
+needsediting: turn link into onsite document
+---
+
+[link to modeling limited growth activity](http://dl.dropboxusercontent.com/u/5098197/Math135/In-Class/limited-growth.pdf)
