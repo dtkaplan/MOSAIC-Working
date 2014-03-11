@@ -12,3 +12,10 @@ This is the directory that Danny is not supposed to touch.
 
 Rebekah is adding something to it now. 
 
+Because RStudio push wasn't working, to **push** your repository, do the following:
+
+1. Git/More/shell
+2. Give the command `git push`
+
+
+
