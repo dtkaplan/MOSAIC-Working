@@ -4,7 +4,8 @@ author: "RRI"
 date: "March 11, 2014"
 output: html_document 
 category: [Calculus, Handout, Activity]
-keywords: [Optimization, Contrained Optimization, R, Hughes-Hallett]  
+keywords: [Optimization, Contrained Optimization, R, Hughes-Hallett] 
+needsediting: dollar sign not working
 ---
 
 ```{r include=FALSE}

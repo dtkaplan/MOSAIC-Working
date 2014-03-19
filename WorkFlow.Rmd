@@ -43,7 +43,7 @@ Assessments (homework, exams, quizzes)
 
 Handouts (instructional handouts, activities, etc.)
 
-Projects & Labs (part of assessments and/or handouts
+Projects/Labs (part of assessments and/or handouts?)
 
 Workshop materials
 
@@ -55,13 +55,15 @@ RMD Document Example:
 ----------
 
     ---
-    Category: [statistics, handout]
+    category: [statistics, handout]
 	
-    Keywords: [ANOVA, integration] 
+    keywords: [ANOVA, integration] 
 
-    Keywords:
+    keywords:
     -	ANOVA
     -	Integration
+    
+    needsediting: what needs to be edited goes here (show when compiled)
     ---
     
     This is where the RMD content will go.
